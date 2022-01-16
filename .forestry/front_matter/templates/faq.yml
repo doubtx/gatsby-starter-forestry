@@ -4,19 +4,13 @@ hide_body: true
 fields:
 - name: question
   type: field_group_list
-  fields:
-  - name: answer
-    type: text
-    config:
-      required: false
-    label: Answer
-  - name: question
-    type: text
-    config:
-      required: false
-    label: Question
   config:
     min: 
     max: 
     labelField: 
   label: Question
+- name: answer
+  type: text
+  config:
+    required: false
+  label: Answer
