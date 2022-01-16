@@ -2,13 +2,21 @@
 label: FAQ
 hide_body: true
 fields:
-- name: question
-  type: text
+- name: items
+  type: field_group_list
+  fields:
+  - name: question
+    type: text
+    config:
+      required: false
+    label: Question
+  - name: answer
+    type: text
+    config:
+      required: false
+    label: Answer
   config:
-    required: false
-  label: Question
-- name: answer
-  type: text
-  config:
-    required: false
-  label: Answer
+    min: 
+    max: 
+    labelField: 
+  label: Items
