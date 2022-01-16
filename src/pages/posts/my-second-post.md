@@ -8,6 +8,8 @@ blocks:
     answer: No, they cant
   - question: Can dogs eat something?
     answer: 'Yes they can '
+- template: rich-text
+  content: I am rich text will be here
 
 ---
 Wow! I love blogging so much already.
