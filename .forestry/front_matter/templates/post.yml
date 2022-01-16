@@ -15,6 +15,7 @@ fields:
   - block__3col
   - block__feature
   - block__hero
+  - faq
   config:
     min: 
     max: 
