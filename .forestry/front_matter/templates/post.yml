@@ -16,6 +16,7 @@ fields:
   - block__feature
   - block__hero
   - faq
+  - rich-text
   config:
     min: 
     max: 
