@@ -8,3 +8,13 @@ fields:
 - type: datetime
   name: date
   label: Date
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - block__3col
+  - block__feature
+  - block__hero
+  config:
+    min: 
+    max: 
